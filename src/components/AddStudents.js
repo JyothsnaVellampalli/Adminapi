@@ -73,7 +73,7 @@ function AddStudents() {
       <Form.Control type="text" placeholder="Class" onChange={b=>setCls(b.target.value)} />
     </Form.Group>
     
-    <Button variant="primary" type="submit" onClick={handleSubmit}>
+    <Button variant="primary" onClick={handleSubmit}>
       Submit
     </Button>
   </Form>
